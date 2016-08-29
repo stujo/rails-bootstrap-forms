@@ -13,3 +13,10 @@
   color: $brand-danger;
   font-size: 0.9em;
 }
+
+/* SELECT box on Chrome */
+select.form-control {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
